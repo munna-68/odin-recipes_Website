@@ -1,0 +1,26 @@
+* {
+font-family: "Roboto Condensed";
+}
+
+h1 {
+  color: #000;
+  font-family: "Bree Serif";
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  color: #000;
+  font-family: "Roboto Condensed";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.recipe-list {
+  display: flex;
+  justify-content: center;
+}
