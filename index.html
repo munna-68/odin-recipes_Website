@@ -13,35 +13,46 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <div class="container">
+    <header class="page-header container">
+      <h1>Odin Recipes</h1>
+      <p class="subtitle">
+        Simple homemade favorites in a clean, responsive layout.
+      </p>
+    </header>
+    <main class="container">
       <h2>Explore Recipes</h2>
       <div class="recipe-list">
         <div class="recipes">
-          <img
-            src="images/kacchi.jpg"
-            alt="A photo of Kacchi"
-            class="list-img"
-          />
-          <a href="recipes/kacchi.html">Kacchi</a>
+          <a href="recipes/kacchi.html" class="recipe-card-link">
+            <img
+              src="images/kacchi.jpg"
+              alt="A photo of Kacchi"
+              class="list-img"
+            />
+            <span class="recipe-link">Kacchi</span>
+          </a>
         </div>
         <div class="recipes">
-          <img
-            src="images/butter-chicken.jpg"
-            alt="A Picture of Butter chicken"
-            class="list-img"
-          />
-          <a href="recipes/butter-chicken.html">Butter Chicken</a>
+          <a href="recipes/butter-chicken.html" class="recipe-card-link">
+            <img
+              src="images/butter-chicken.jpg"
+              alt="A Picture of Butter chicken"
+              class="list-img"
+            />
+            <span class="recipe-link">Butter Chicken</span>
+          </a>
         </div>
         <div class="recipes">
-          <img
-            src="images/fried-chicken-sandwich.jpg"
-            alt="A photo of a fried-chicken-sandwich"
-            class="list-img"
-          />
-          <a href="recipes/chicken-sandwich.html">Fried Chicken Sandwic</a>
+          <a href="recipes/chicken-sandwich.html" class="recipe-card-link">
+            <img
+              src="images/fried-chicken-sandwich.jpg"
+              alt="A photo of a fried-chicken-sandwich"
+              class="list-img"
+            />
+            <span class="recipe-link">Fried Chicken Sandwich</span>
+          </a>
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
